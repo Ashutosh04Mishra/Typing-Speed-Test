@@ -48,5 +48,4 @@ input1.bind("<KeyRelease>", check_test)
 start_btn = Button(text="Start", command=start_test)
 start_btn.grid(row=2,column=1)
 
-
 window.mainloop()
